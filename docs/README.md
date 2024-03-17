@@ -88,7 +88,7 @@ Los detalles de la defensa se encuentran en [este enlace](/defensa).
 
 ## Entrega
 
-**Obligatorios** (Cap.IV.1, Doc. 220)
+**[Obligatorios (Cap.IV.1, Doc. 220)](https://www.ort.edu.uy/innovaportal/file/95484/1/reglamento-general-de-evaluacion-academica__documento-220.pdf)**
 
 La entrega de los obligatorios será en formato digital online, a
 excepción de algunas materias que se entregarán en Bedelía y en ese caso
