@@ -76,6 +76,9 @@ Se irán publicando a medida que transcurra el semestre en el siguiente [enlace]
     fuentes serán usados como referencia. **Considerándose copia el uso
     de ellos.**
 
+-   La falta de documentación o la falta de citación de fuentes
+    implicará la pérdida de puntos.
+
 -   **Se utilizará MOSS para detectar copias.**
 
 ## Defensa
