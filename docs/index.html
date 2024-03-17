@@ -13,7 +13,15 @@
   <script>
     window.$docsify = {
       name: '',
-      repo: ''
+      repo: '',
+        // Habilita la barra lateral
+        loadSidebar: true,
+        // Habilita el pie de página
+        loadNavbar: true, // Cambia a true si deseas usar un navbar personalizado, como un header
+        footer: {
+            // Habilita el pie de página personalizado, asegúrate de tener esta opción si quieres usar _footer.md
+            homepage: '_footer.md'
+        }
     }
   </script>
   <!-- Docsify v4 -->

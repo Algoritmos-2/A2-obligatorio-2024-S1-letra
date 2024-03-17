@@ -56,26 +56,7 @@ Se irán publicando a medida que transcurra el semestre en el siguiente [enlace]
 ## Formato de entrega
 
 - El formato del **código fuente** de la entrega se encuentra definido en [este enlace](/formato).
-- Además, se deberá entregar un **informe/documentación** en formato pdf que contenga:
-    -   Carátula con los datos de los estudiantes.
-    -   Breve explicación de la solución de cada problema.
-    -   Justificación de la complejidad temporal de cada problema.
-    -   Una tabla que resuma los resultados obtenidos en los casos de prueba provistos por la cátedra.
-        -   Los resultados posibles son:
-            -   Completo: Corren todas las pruebas.
-            -   Parcial: Corren parcialmente las pruebas.
-            -   En Proceso: Implementado pero no pasa ninguna prueba.
-            -   No Implementado: Ejercicio no implementado.
-        - Ejemplo de tabla:
-        | Problema | Resultado |
-        |----------|-----------|
-        | 1        | Completo  |
-        | 2        | Completo   |
-        | 3        | En Proceso|
-        | 4        | No Implementado|
-        | ...      | ...       |
-        | 10       | Completo   |
-
+- Además, se deberá entregar un **informe/documentación** en formato pdf que contenga lo definido en [este enlace](/documentacion).
 
 
 ## Corrección
