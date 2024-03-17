@@ -1,6 +1,6 @@
-# Colaboración en la Creación de Ejercicios para el Obligatorio de Estructuras de Datos y Algoritmos 2
+# Colaboración (creación de ejercicios)
 
-Este repositorio sirve como base para la creación y documentación de los ejercicios del obligatorio para el semestre 1 de 2024. Aquí, los docentes pueden colaborar en el desarrollo de los enunciados de los ejercicios, así como en la preparación de los archivos de pruebas y soluciones.
+Este repositorio sirve como base para la creación y documentación de los ejercicios del obligatorio. Aquí, los docentes pueden colaborar en el desarrollo de los enunciados de los ejercicios, así como en la preparación de los archivos de pruebas y soluciones.
 
 ## Contribuir con Ejercicios
 
