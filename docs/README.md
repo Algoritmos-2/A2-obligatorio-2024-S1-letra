@@ -53,7 +53,7 @@ El obligatorio de **Estructuras de Datos y Algoritmos 2**, para el semestre
 La cátedra proveerá un conjunto de casos de prueba, pares de entrada y salida esperada. Se deberá comparar la salida de la solución contra una salida esperada.
 Se irán publicando a medida que transcurra el semestre en el siguiente [enlace](https://github.com/Algoritmos-2/A2-obligatorio-2024-S1-letra/tree/main/tests).
 
-## Entrega
+## Formato de entrega
 
 - El formato del **código fuente** de la entrega se encuentra definido en [este enlace](/formato).
 - Además, se deberá entregar un **informe/documentación** en formato pdf que contenga:
@@ -102,7 +102,7 @@ Se irán publicando a medida que transcurra el semestre en el siguiente [enlace]
 Los detalles de la defensa se encuentran en [este enlace](/defensa).
 
 
-## ORT
+## Entrega
 
 **Obligatorios** (Cap.IV.1, Doc. 220)
 
