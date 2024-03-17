@@ -1,14 +1,11 @@
 # Obligatorio
 
 El obligatorio de **Estructuras de Datos y Algoritmos 2**, para el semestre
-1 de 2024, está compuesto por un conjunto de **10** problemas a
-resolver.
+1 de 2024, está compuesto por un conjunto de **10** problemas a resolver.
 
 ## Reglas
 
--   Se deberá realizar en grupos de **2 estudiantes**.
-
-    > En caso de no poder conformar un grupo de 2 estudiantes, deberá consultar al profesor.
+-   Se deberá realizar en grupos de **2 estudiantes**. En caso de no poder conformar un grupo de 2 estudiantes, deberá consultar al profesor.
 
 -   Se podrá utilizar tanto **C++** (C++11) como **Java** (jdk8).
 
@@ -21,9 +18,7 @@ resolver.
 -   No se puede usar ninguna librería, clase, estructura, función o
     variable no definida por el estudiante, a excepción de \<iostream\>,
     \<string\> y \<cstring\> para C++. y System.in, System.out y String
-    para Java.
-
-    > Si se quiere usar algo que no sea lo listado anteriormente,
+    para Java. Si se quiere usar algo que no sea lo listado anteriormente,
     consultar previamente al profesor.
 
 -   Se deberá utilizar el formato de ejecución trabajado durante el
@@ -38,12 +33,52 @@ resolver.
 
 !> **De no cumplir las condiciones anteriores podría implicar la pérdida de puntos (parcial o total).**
 
-## La entrega
+## Ejercicios
 
--   El formato de entrega se encuentra definido en [este
-    enlace](/formato/formato).
+- [Ejercicio 1](/ejercicios/ejercicio1)
+- [Ejercicio 2](/ejercicios/ejercicio2)
+- [Ejercicio 3](/ejercicios/ejercicio3)
+- [Ejercicio 4](/ejercicios/ejercicio4)
+- [Ejercicio 5](/ejercicios/ejercicio5)
+- [Ejercicio 6](/ejercicios/ejercicio6)
+- [Ejercicio 7](/ejercicios/ejercicio7)
+- [Ejercicio 8](/ejercicios/ejercicio8)
+- [Ejercicio 9](/ejercicios/ejercicio9)
+- [Ejercicio 10](/ejercicios/ejercicio10)
 
-La corrección:
+> Ten en cuenta que los ejercicios se irán publicando a medida que transcurra el semestre. ¡No te pierdas las actualizaciones por foro de Aulas!
+
+## Pruebas
+
+La cátedra proveerá un conjunto de casos de prueba, pares de entrada y salida esperada. Se deberá comparar la salida de la solución contra una salida esperada.
+Se irán publicando a medida que transcurra el semestre en el siguiente [enlace](https://github.com/Algoritmos-2/A2-obligatorio-2024-S1-letra/tree/main/tests).
+
+## Entrega
+
+- El formato del **código fuente** de la entrega se encuentra definido en [este enlace](/formato).
+- Además, se deberá entregar un **informe/documentación** en formato pdf que contenga:
+    -   Carátula con los datos de los estudiantes.
+    -   Breve explicación de la solución de cada problema.
+    -   Justificación de la complejidad temporal de cada problema.
+    -   Una tabla que resuma los resultados obtenidos en los casos de prueba provistos por la cátedra.
+        -   Los resultados posibles son:
+            -   Completo: Corren todas las pruebas.
+            -   Parcial: Corren parcialmente las pruebas.
+            -   En Proceso: Implementado pero no pasa ninguna prueba.
+            -   No Implementado: Ejercicio no implementado.
+        - Ejemplo de tabla:
+        | Problema | Resultado |
+        |----------|-----------|
+        | 1        | Completo  |
+        | 2        | Completo   |
+        | 3        | En Proceso|
+        | 4        | No Implementado|
+        | ...      | ...       |
+        | 10       | Completo   |
+
+
+
+## Corrección
 
 -   La corrección implica la verificación contra la salida esperada, así
     también como la corrección del código fuente para verificar que se
@@ -62,13 +97,12 @@ La corrección:
 
 -   **Se utilizará MOSS para detectar copias.**
 
-La defensa:
+## Defensa
 
--   Luego de la entrega, se realizará una defensa de autoría a cada
-    estudiante **de manera individual**.
+Los detalles de la defensa se encuentran en [este enlace](/defensa).
 
 
-# RECORDATORIO: IMPORTANTE PARA LA ENTREGA
+## ORT
 
 **Obligatorios** (Cap.IV.1, Doc. 220)
 
@@ -79,8 +113,7 @@ recibirá información específica en el dictado de la misma.
 Los principales aspectos a destacar sobre la **entrega online de
 obligatorios** son:
 
-1.  La entrega se realizará desde
-    [**[gestion.ort.edu.uy]**](http://gestion.ort.edu.uy)
+1.  La entrega se realizará desde **[gestion.ort.edu.uy](http://gestion.ort.edu.uy)**
 
 2.  Previo a la conformación de grupos cada estudiante deberá estar
     inscripto a la evaluación. S**ugerimos realizarlo con
