@@ -73,8 +73,7 @@ Se irán publicando a medida que transcurra el semestre en el siguiente [enlace]
     comprensión, podrá perder puntos.
 
 -   Los códigos dados en clase como algoritmos encontrados de otras
-    fuentes serán usados como referencia. **Considerándose copia el uso
-    de ellos.**
+    fuentes serán usados como referencia.
 
 -   La falta de documentación o la falta de citación de fuentes
     implicará la pérdida de puntos.
