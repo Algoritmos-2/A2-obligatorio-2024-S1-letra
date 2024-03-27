@@ -1,0 +1,11 @@
+4 1 1 348 10
+5 8 1 56 2
+7 9 2 686 7
+2 6 6 739 2
+3 4 6 516 2
+10 7 7 309 4
+9 1 9 306 2
+3 5 12 861 3
+2 10 21 174 6
+Distancia total a reparar: 65
+Estado promedio de las calles reparadas: 4
