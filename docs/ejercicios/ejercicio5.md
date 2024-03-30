@@ -14,12 +14,12 @@ Tu tarea es descubrir en qué parada se encuentra el fugitivo.
 
 ## Entrada
 
-La primera línea contiene dos enteros: `P` y `L`. `P` es el número total de paradas existentes, y `L` es el número de líneas de ómnibus. Las paradas están numeradas del `1` al `P`; dónde `1 <= P <= 10^3`; y `1 <= L <= 1000`. A continuación, tenemos `L` líneas, una para cada línea de ómnibus. Estas líneas consisten en una lista de paradas, separadas por espacios en blanco, terminando con un `0`. El `0` no es una parada válida.
+La primera línea contiene dos enteros: `P` y `L`. `P` es el número total de paradas existentes (numeradas de 1 a `P`), y `L` es el número de líneas de ómnibus. Las paradas están numeradas del `1` al `P`; dónde `1 <= P <= 10^3`; y `1 <= L <= 1000`. A continuación, tenemos `L` líneas, una para cada línea de ómnibus. Estas líneas consisten en una lista de paradas, separadas por espacios en blanco, terminando con un `0`. El `0` no es una parada válida.
 
 Se puede considerar que:
-- siempre habrá paradas importantes;
-- existe un camino entre cualquier par de paradas; y,
-- las líneas tienen a lo sumo el 30% de las paradas totales
+- Siempre habrá paradas importantes;
+- Existe un camino entre cualquier par de paradas; y,
+- Las líneas tienen a lo sumo el 30% de las paradas totales
 
 ## Salida
 
@@ -27,12 +27,13 @@ Se debe imprimir el número de la parada resultante, en el siguiente formato:
 
 `El fugitivo está en: X`
 
-
 Para cualquier salida `X` será el número de la parada. Si hay más de una parada importante con la distancia mínima, entonces debes indicar la que tenga el número más pequeño.
 
 ## Restricciones
 
-Ejecutar en `O(C((A+V)*LogV))`, donde `C` es la cantidad de paradas importantes.
+Ejecutar en $O(C((A+P)*Log(P)))$, donde:
+- `C` es la cantidad de paradas importantes.
+- `A` es la cantidad de tramos entre paradas (cada linea tiene multiples tramos).
 
 ## Entrada de Muestra 1
 
