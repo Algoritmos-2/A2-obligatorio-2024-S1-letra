@@ -11,10 +11,10 @@ Contamos con dos listas de numeros, una de tamaño `N` y otra de tamaño `M`. Da
 1. El numero `K` que estamos buscando
 
 ```
-M
-<M números>
 N
 <N números>
+M
+<M números>
 K
 ```
 
