@@ -8,7 +8,7 @@ Para simplificar el problema, el sistema ya maneja un identificador numérico pa
 
 ## Entrada
 
-1. Un número `K`, tal que $\forall v, 1 >= v >= K$
+1. Un número `V`, tal que $\forall v, 1 >= v >= V$
 1. Un número `E` que indica la cantida de aristas que contiene el mapa
    1. Seguido de `E` lineas, que contienen vertices `<v> <w>` representando una arista sin costo
 1. Un numero `D`, que indica a cuantos destinos se desea llegar
@@ -17,7 +17,7 @@ Para simplificar el problema, el sistema ya maneja un identificador numérico pa
 El punto de donde salen los pedidos es el identificado con el número 1.
 
 ```text
-K
+V
 E
 <E pares v w>
 D
@@ -34,16 +34,34 @@ Se espera `D` lineas que contengan `<destino> si` en casi de que se pueda alcanz
 
 ## Restricciones
 
-Orden temporal debe ser `O(D * (K + E))`
+Orden temporal debe ser `O(D * (V + E))`
 
-## Ejemplo 1
+## Ejemplo
 
-### Entrada ejemplo 1
+### Entrada ejemplo
 
-### Salida ejemplo 1
+```text
+5
+6
+1 2
+2 3
+2 5
+3 1
+3 5
+4 3
+3
+2
+5
+4
+```
 
-## Ejemplo 2
+### Salida ejemplo
 
-### Entrada ejemplo 2
+```text
+2 si
+5 si
+4 no
+```
 
-### Salida ejemplo 2
+### Explicacion
+Existe un camino desde el local (vertice `1`) hasta el vertice `2` y `5`, pero no hay ningun camino que llegue al `4`
