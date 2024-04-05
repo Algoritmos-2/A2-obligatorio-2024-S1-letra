@@ -2,9 +2,10 @@
 
 ## Descripción
 La IMM (Intendencia Municipal de Montevideo) se propuso mejorar el estado de las calles que unen los distintos barrios de la ciudad con el fin de mejorar la conectividad y reducir los tiempos de viaje. El proyecto consiste en desarrollar una red vial eficiente que conecte todos los barrios, minimizando la cantidad de caminos a mejorar y su distancia. Para establecer un criterio de selección adecuado la IMM solicita:
-- si dos caminos tienen la misma distancia se preferirá reparar aquel que tenga mejor estado;
-- si el criterio anterior no es suficiente, se priorizará aquella calle que admita un mayor flujo de tránsito vehicular; y,
-- si lo anterior no establece un orden, se considerará la calle con id más pequeño primero
+   1. se seleccionará el camino de menor distancia
+   2. si dos caminos tienen la misma distancia se preferirá reparar aquel que tenga mejor estado;
+   3. si el criterio anterior no es suficiente, se priorizará aquella calle que admita un mayor flujo de tránsito vehicular; y,
+   4. si lo anterior no establece un orden, se considerará la calle con id más pequeño primero
 
 
 ## Entrada 
@@ -39,13 +40,31 @@ Donde `X` e `Y` son los valores correspondientes al cálculo realizado.
 - $1 \leq flujo \leq 1000$
 - $1 \leq estado \leq 10$
 - La selección de calles debe priorizar
-   - la menor distancia 
-   - luego el mejor estado 
-   - el mayor flujo vehicular
-   - por último, el id de la calle
+   1. la menor distancia 
+   2. luego el mejor estado 
+   3. el mayor flujo vehicular
+   4. por último, el id de la calle
 - Para el cálculo del promedio se puede usar la funcion round
 
-## Ejemplo
+## Ejemplo 1
+
+### Input
+4  
+5  
+1 2 1 6 200 2  
+2 3 2 6 250 3  
+1 3 3 4 150 4  
+3 4 4 5 100 5  
+2 4 5 7 300 1 
+
+### Output
+1 3 3 4 150 4  
+3 4 4 5 100 5  
+1 2 1 6 200 2  
+Distancia total a reparar: 15  
+Estado promedio de las calles reparadas: 3  
+
+## Ejemplo 2
 
 ### Input
 5  
