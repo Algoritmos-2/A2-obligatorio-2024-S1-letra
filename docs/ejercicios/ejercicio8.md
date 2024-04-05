@@ -1,4 +1,4 @@
-# Ejercicio 8 - Encontrar el numero          
+# Ejercicio 8 - Encontrar el número que aparece menos veces          
 
 ## Descripción
 Se tiene un array de números donde cada número está repetido tres veces de manera consecutiva, excepto uno que aparece solo o de a dos. El objetivo es encontrar ese número.
