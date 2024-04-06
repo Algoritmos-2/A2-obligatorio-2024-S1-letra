@@ -4,17 +4,17 @@
 
 La misma empresa de entrega de comida del ejercicio 1 le pide actualizar el sistema. Despues de los inundamientos que hubo por las fuertes lluvias, hay calles que quedaron inhabilitadas. Entonces quieren actualizar el sistema de forma que el sistema les indique si es posible hacer la entrega del pedido.
 
-Para simplificar el problema, el sistema ya maneja un identificador numérico para cada esquina en el mapa.
+Para simplificar el problema, el sistema ya maneja un identificador numérico para cada esquina en el mapa. Donde el origen (el local) es el número 1.
+
+> Nota: Considere las calles tienen ambos sentidos.
 
 ## Entrada
 
-1. Un número `V`, tal que $\forall v, 1 >= v >= V$
-1. Un número `E` que indica la cantida de aristas que contiene el mapa
-   1. Seguido de `E` lineas, que contienen vertices `<v> <w>` representando una arista sin costo
-1. Un numero `D`, que indica a cuantos destinos se desea llegar
-   1. Seguido de `D` lineas con `<destino>`
-
-El punto de donde salen los pedidos es el identificado con el número 1.
+Un número `V`, tal que $\forall v, 1 >= v >= V$
+Un número `E` que indica la cantidad de aristas que contiene el mapa
+Seguido de `E` lineas, que contienen vertices `<v> <w>` representando una arista sin costo
+Un número `D`, que indica a cuantos destinos se desea llegar
+Seguido de `D` lineas con `<destino>`
 
 ```text
 V
@@ -26,7 +26,7 @@ D
 
 ## Salida
 
-Se espera `D` lineas que contengan `<destino> si` en casi de que se pueda alcanzar o `<destino> no` en caso contrario.
+Se espera `D` lineas que contengan `<destino> si` en casi de que se pueda alcanzar (desde el origen 1) o `<destino> no` en caso contrario.
 
 ```text
 <D lineas con la salida esperada>
