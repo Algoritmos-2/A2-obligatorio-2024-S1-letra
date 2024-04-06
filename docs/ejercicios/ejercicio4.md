@@ -4,17 +4,17 @@
 
 La misma empresa de entrega de comida del ejercicio 1 le pide actualizar el sistema. Despues de los inundamientos que hubo por las fuertes lluvias, hay calles que quedaron inhabilitadas. Entonces quieren actualizar el sistema de forma que el sistema les indique si es posible hacer la entrega del pedido.
 
-Para simplificar el problema, el sistema ya maneja un identificador numérico para cada esquina en el mapa. Donde el origen (el local) es el número 1.
+Para simplificar el problema, el sistema ya maneja un identificador numérico para cada esquina en el mapa. 
 
-> Nota: Considere las calles tienen ambos sentidos.
+> Nota: **El origen (el local) es el número 1**.
 
 ## Entrada
 
-Un número `V`, tal que $\forall v, 1 >= v >= V$
-Un número `E` que indica la cantidad de aristas que contiene el mapa
-Seguido de `E` lineas, que contienen vertices `<v> <w>` representando una arista sin costo
-Un número `D`, que indica a cuantos destinos se desea llegar
-Seguido de `D` lineas con `<destino>`
+- Un número `V`, tal que $\forall v, 1 >= v >= V$
+- Un número `E` que indica la cantidad de aristas que contiene el mapa
+- Seguido de `E` lineas, que contienen vertices `<v> <w>` representando una arista sin costo
+- Un número `D`, que indica a cuantos destinos se desea llegar
+- Seguido de `D` lineas con `<destino>`
 
 ```text
 V
@@ -34,7 +34,7 @@ Se espera `D` lineas que contengan `<destino> si` en casi de que se pueda alcanz
 
 ## Restricciones
 
-Orden temporal debe ser `O(D * (V + E))`
+Orden temporal debe ser `O(D + V + E)`
 
 ## Ejemplo
 
@@ -53,6 +53,16 @@ Orden temporal debe ser `O(D * (V + E))`
 2
 5
 4
+```
+
+```mermaid
+graph LR
+    1 --> 2
+    2 --> 3
+    2 --> 5
+    3 --> 1
+    3 --> 5
+    4 --> 3
 ```
 
 ### Salida ejemplo
