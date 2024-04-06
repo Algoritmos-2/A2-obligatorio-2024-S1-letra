@@ -1,9 +1,9 @@
-3 si
+3 no
 18 no
 4 no
 23 no
 22 no
-5 si
+5 no
 17 no
 26 no
 28 no

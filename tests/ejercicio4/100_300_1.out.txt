@@ -20,9 +20,9 @@
 98 si
 80 si
 40 si
-37 si
+37 no
 32 si
-85 si
+85 no
 83 si
 42 si
 31 si

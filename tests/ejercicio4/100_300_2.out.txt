@@ -1,12 +1,12 @@
 25 si
-8 si
+8 no
 6 si
 94 si
 48 si
 68 si
 96 si
 30 si
-56 si
+56 no
 82 si
 4 si
 43 si
@@ -31,8 +31,8 @@
 13 si
 22 si
 49 si
-71 si
-91 si
+71 no
+91 no
 31 si
 36 si
 88 si

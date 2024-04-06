@@ -1,10 +1,10 @@
 9 si
 8 si
-27 si
-12 si
-15 si
+27 no
+12 no
+15 no
 18 si
-25 si
+25 no
 13 si
 24 si
 21 si
@@ -17,4 +17,4 @@
 29 si
 11 si
 28 si
-10 si
+10 no

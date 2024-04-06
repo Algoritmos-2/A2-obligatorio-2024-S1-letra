@@ -1,4 +1,4 @@
-33 si
+33 no
 28 si
 1 si
 42 no
@@ -8,13 +8,13 @@
 30 si
 35 si
 25 no
-11 si
+11 no
 40 si
-3 si
+3 no
 47 no
-18 si
+18 no
 32 si
-24 si
-31 si
+24 no
+31 no
 16 no
-21 si
+21 no
