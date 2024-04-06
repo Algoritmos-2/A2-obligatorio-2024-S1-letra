@@ -14,12 +14,17 @@ Tu tarea es descubrir en qué parada se encuentra el fugitivo.
 
 ## Entrada
 
-La primera línea contiene dos enteros: `P` y `L`. `P` es el número total de paradas existentes (numeradas de 1 a `P`), y `L` es el número de líneas de ómnibus. Las paradas están numeradas del `1` al `P`; dónde `1 <= P <= 10^3`; y `1 <= L <= 1000`. A continuación, tenemos `L` líneas, una para cada línea de ómnibus. Estas líneas consisten en una lista de paradas, separadas por espacios en blanco, terminando con un `0`. El `0` no es una parada válida.
+- La primera línea contiene dos enteros: `P` y `L`. 
+    - `P` es el número total de paradas existentes (numeradas de 1 a `P`).
+    - `L` es el número de líneas de ómnibus.
+    - Las paradas están numeradas del `1` al `P`; dónde `1 <= P <= 10^3`; y `1 <= L <= 1000`. 
+- A continuación, tenemos `L` líneas, una para cada línea de ómnibus. 
+    - Estas líneas consisten en una lista de paradas, separadas por espacios en blanco, terminando con un `0`. El `0` no es una parada válida.
 
 Se puede considerar que:
-- Siempre habrá paradas importantes;
-- Existe un camino entre cualquier par de paradas; y,
-- Las líneas tienen a lo sumo el 30% de las paradas totales
+- Siempre habrá paradas importantes.
+- Existe un camino entre cualquier par de paradas,
+- Las líneas tienen a lo sumo el 30% de las paradas totales.
 
 ## Salida
 
@@ -31,9 +36,10 @@ Para cualquier salida `X` será el número de la parada. Si hay más de una para
 
 ## Restricciones
 
-Ejecutar en $O(C((A+P)*Log(P)))$, donde:
+Ejecutar en $O(C(E+V))$, donde:
 - `C` es la cantidad de paradas importantes.
-- `A` es la cantidad de tramos entre paradas (cada linea tiene multiples tramos).
+- `E` es la cantidad de tramos entre paradas (cada linea tiene multiples tramos).
+- `V` es la cantidad de paradas totales.
 
 ## Entrada de Muestra 1
 
@@ -41,6 +47,25 @@ Ejecutar en $O(C((A+P)*Log(P)))$, donde:
 1 2 3 4 5 6 7 0  
 8 9 4 10 13 0  
 11 2 12 9 6 7 0  
+
+```mermaid
+graph LR
+    1 --- 2
+    2 --- 3
+    3 --- 4
+    4 --- 5
+    5 --- 6
+    6 --- 7
+    8 --- 9
+    9 --- 4
+    4 --- 10
+    10 --- 13
+    11 --- 2
+    2 --- 12
+    12 --- 9
+    9 --- 6
+    6 --- 7
+```
 
 
 ## Salida de Muestra 1
