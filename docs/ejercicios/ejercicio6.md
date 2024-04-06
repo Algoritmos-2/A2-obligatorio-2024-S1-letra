@@ -2,16 +2,16 @@
 
 ## Descripción
 La IMM (Intendencia Municipal de Montevideo) se propuso mejorar el estado de las calles que unen los distintos barrios de la ciudad con el fin de mejorar la conectividad y reducir los tiempos de viaje. El proyecto consiste en desarrollar una red vial eficiente que conecte todos los barrios, minimizando la cantidad de caminos a mejorar y su distancia. Para establecer un criterio de selección adecuado la IMM solicita:
-   1. se seleccionará el camino de menor distancia
-   2. si dos caminos tienen la misma distancia se preferirá reparar aquel que tenga mejor estado;
-   3. si el criterio anterior no es suficiente, se priorizará aquella calle que admita un mayor flujo de tránsito vehicular; y,
-   4. si lo anterior no establece un orden, se considerará la calle con id más pequeño primero
+   1. Se quieren minimizar la distancia total a reparar.
+   2. Si dos calles tienen la misma distancia se preferirá reparar aquel que tenga mejor estado.
+   3. Si el criterio anterior no es suficiente, se priorizará aquella calle que admita un mayor flujo de tránsito vehicular.
+   4. Si lo anterior no establece un orden, se considerará la calle con id más pequeño primero.
 
 
 ## Entrada 
 La entrada consistirá en:
-1. Un número entero `B` que representa el número de barrios en Montevideo
-2. Un número entero `L` que representa las siguientes líneas.
+1. Un número entero `B` que representa el número de barrios en Montevideo.
+2. Un número entero `L` que representa la cantidad de calles que unen los barrios.
 3. `L` líneas cada una conteniendo 5 valores separados por un espacio: `barrio1` `barrio2` `idCalle` `distancia` `flujo` `estado`
 
    - `barrio1` y `barrio2` serán enteros que simbolizan los barrios
@@ -27,24 +27,16 @@ Se deben imprimir todos los detalles de las calles a reparar con el siguiente fo
 Además se debe imprimir las siguientes líneas
 
 `Distancia total a reparar: X`  
-`Estado promedio de las calles reparadas: Y`
+`Estado promedio de las calles reparadas: Y` (redondeado a entero)
 
 Donde `X` e `Y` son los valores correspondientes al cálculo realizado.
 
 ## Restricciones
-- $1 \leq barrio1 \leq 10^6$
-- $1 \leq barrio2 \leq 10^6$
-- $B - 1 \leq L \leq \frac{B \times (B - 1)}{2}$
-- Resolver en $O(L \log B)$
+- $1 \leq barrio \leq 10^6$
 - $1 \leq distancia \leq 30$
 - $1 \leq flujo \leq 1000$
 - $1 \leq estado \leq 10$
-- La selección de calles debe priorizar
-   1. la menor distancia 
-   2. luego el mejor estado 
-   3. el mayor flujo vehicular
-   4. por último, el id de la calle
-- Para el cálculo del promedio se puede usar la funcion round
+- Resolver en $O(L \log B)$ temporal
 
 ## Ejemplo 1
 
@@ -80,10 +72,24 @@ Estado promedio de las calles reparadas: 3
 1 5 9 5 100 3  
 2 3 10 5 100 4  
 
+```mermaid
+graph LR
+    1 ---|d:5, e:2, f:100| 2
+    1 ---|d:4, e:3, f:150| 3
+    2 ---|d:7, e:4, f:200| 4
+    3 ---|d:2, e:2, f:120| 4
+    3 ---|d:3, e:3, f:130| 5
+    4 ---|d:4, e:1, f:110| 5
+    2 ---|d:5, e:2, f:99| 5
+    1 ---|d:5, e:2, f:100| 4
+    1 ---|d:5, e:3, f:100| 5
+    2 ---|d:5, e:4, f:100| 3
+```
+
 ### Output
 3 4 4 2 120 2  
 3 5 5 3 130 3  
 1 3 2 4 150 3  
 1 2 1 5 100 2  
 Distancia total a reparar: 14  
-Estado promedio de las calles reparadas: 2  
+Estado promedio de las calles reparadas: 2
