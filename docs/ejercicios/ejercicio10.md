@@ -1,4 +1,4 @@
-# Ejercicio 20 - Tour del Caballo
+# Ejercicio 10 - Tour del Caballo
 
 ## Descripción
 
