@@ -15,8 +15,10 @@ El "Tour del Caballo" es un problema clásico de la teoría de grafos y los jueg
 
 ## Restricciones
 
-- `1 <= N <= 8`
-- `0 <= r, c < N`
+- `3 <= N <= 5`
+- `0 <= r < N`
+- `0 <= c < N`
+- Usar un enfoque de backtracking para resolver el problema.
 
 ## Ejemplo
 
@@ -49,5 +51,3 @@ NO
 ### Explicación
 
 En el primer caso, dado un tablero de 5x5 y una posición inicial en la esquina (0,0), existe al menos un camino que permite al caballo visitar todas las casillas una vez. Sin embargo, en un tablero de 3x3, es imposible para el caballo completar un tour debido a las limitaciones de su movimiento y el tamaño del tablero.
-
-Este problema es una excelente oportunidad para explorar algoritmos de backtracking y teoría de grafos, enfrentando el desafío de calcular movimientos en un espacio limitado mientras se sigue una regla específica de movimiento.
