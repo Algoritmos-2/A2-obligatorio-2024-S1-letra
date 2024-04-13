@@ -48,3 +48,13 @@ Deberá retornar solamente el número de posibles formas de llegar a la casilla 
 ```
 20
 ```
+
+### Input 3
+```
+1 2
+```
+
+### Output 3
+```
+0
+```
