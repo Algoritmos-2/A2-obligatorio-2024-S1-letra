@@ -99,7 +99,7 @@ obligatorios** son:
 1.  La entrega se realizará desde **[gestion.ort.edu.uy](http://gestion.ort.edu.uy)**
 
 2.  Previo a la conformación de grupos cada estudiante deberá estar
-    inscripto a la evaluación. S**ugerimos realizarlo con
+    inscripto a la evaluación. **Sugerimos realizarlo con
     anticipación.**
 
 3.  **Uno de los integrantes del grupo de obligatorio será el
