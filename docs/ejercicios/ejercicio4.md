@@ -10,7 +10,7 @@ Para simplificar el problema, el sistema ya maneja un identificador numérico pa
 
 ## Entrada
 
-- Un número `V`, tal que $\forall v, 1 >= v >= V$
+- Un número `V`, tal que $\forall v, 1 <= v <= V$
 - Un número `E` que indica la cantidad de aristas que contiene el mapa
 - Seguido de `E` lineas, que contienen vertices `<v> <w>` representando una arista sin costo
 - Un número `D`, que indica a cuantos destinos se desea llegar
