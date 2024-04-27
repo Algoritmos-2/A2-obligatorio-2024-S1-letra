@@ -8,9 +8,9 @@ El documento del obligatorio debe contener la siguiente contenido:
 -   Una tabla que resuma los resultados obtenidos en los casos de prueba provistos por la cátedra.
     -   Los resultados posibles son:
         -   Completo: Corren todas las pruebas.
-            -   Parcial: Corren parcialmente las pruebas.
-            -   En Proceso: Implementado pero no pasa ninguna prueba.
-            -   No Implementado: Ejercicio no implementado o no compila.
+        -   Parcial: Corren parcialmente las pruebas.
+        -   En Proceso: Implementado pero no pasa ninguna prueba.
+        -   No Implementado: Ejercicio no implementado o no compila.
      - Ejemplo de tabla:
         | Problema | Resultado |
         |----------|-----------|
