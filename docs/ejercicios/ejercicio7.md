@@ -25,11 +25,11 @@ La salida debe ser `true` o `false`, dependiendo de si es posible destruir todos
 - `1 <= potencia <= 10^5`
 - `1 <= N <= 10^5`
 - `1 <= virus[i] <= 10^5`
-- El algoritmo debe tener una complejidad de tiempo O(N).
+- El algoritmo debe tener una complejidad de tiempo $O(N)$.
 
 ## Ejemplo
 
-### Input.txt
+### Input
 
 ```
 10
