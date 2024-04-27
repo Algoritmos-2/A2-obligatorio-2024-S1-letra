@@ -1,4 +1,4 @@
-# Ejercicio 7: Antivirus
+# Ejercicio 7 - Antivirus
 
 ## Descripción
 
