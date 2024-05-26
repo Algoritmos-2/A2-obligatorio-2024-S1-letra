@@ -1,4 +1,4 @@
-# Colaboración (creación de ejercicios)
+# Colaboración [solo docentes!]
 
 Este repositorio sirve como base para la creación y documentación de los ejercicios del obligatorio. Aquí, los docentes pueden colaborar en el desarrollo de los enunciados de los ejercicios, así como en la preparación de los archivos de pruebas y soluciones.
 
