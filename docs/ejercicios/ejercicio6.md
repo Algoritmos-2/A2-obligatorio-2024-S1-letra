@@ -27,7 +27,7 @@ Se deben imprimir todos los detalles de las calles a reparar con el siguiente fo
 Además se debe imprimir las siguientes líneas
 
 `Distancia total a reparar: X`  
-`Estado promedio de las calles reparadas: Y` (redondeado a entero)
+`Estado promedio de las calles reparadas: Y` (redondeado a entero, se puede usar la función `round` de `cmath`)
 
 Donde `X` e `Y` son los valores correspondientes al cálculo realizado.
 
